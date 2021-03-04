@@ -29,4 +29,6 @@ let toggleNav= function() {
         toggleNavStatus = hidden;
         
     }
+    
 }
+

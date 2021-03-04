@@ -1,0 +1,123 @@
+.Solution{
+    width: 100%;
+    height: 500px;
+    font-family:"Montserrat bold", sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom:1px solid rgb(184, 184, 184);
+    
+}
+.Solution-statment{
+    width: 520px;
+    height: 420px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 7%;
+   
+}
+.Solution-statment h1{
+    font-size: 40px;
+}
+.Solution-statment p{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200px;
+}
+.Solution-animated{
+    
+    margin: 0 auto;
+    margin-top: 40px;
+}
+#animation{
+    width: 500px;
+    height: 400px;
+    
+}
+.Slider{
+    width:100%;
+    height:400px;
+    
+}
+.Slider-details{
+    margin-top: 20px;
+    text-align: center;
+    font-family:"Montserrat bold", sans-serif;
+    
+    
+}
+.Slider-details p{
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Slider-position{
+  
+    width: 850px;
+    height: 150px;
+    margin:0 auto;
+    margin-top: 50px;
+    background: red;
+    
+}
+.Slider-container{
+    position: relative;
+    display:flex;
+    width: 700px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: green;
+}
+.logo{
+    padding:0px 5px;
+}
+#swell{
+    
+    width: 100px;
+    height: 100px;
+    
+} 
+@media (max-width: 1200px){
+    #animation{
+        width: 400px;
+        height: 300px;
+        
+    }
+    .Solution-animated{
+        margin-top: 80px;
+        
+    }
+}
+@media (max-width: 1010px){
+    .Solution{
+        height:800px 
+    }
+    .Solution-statment{
+        width: 630px;
+        height: 330px;
+        margin: 0 auto;
+        margin-top:30px;
+        
+    
+    }
+    .Solution-animated{
+        margin-top: unset;
+        margin-bottom: 80px;
+        
+    }
+}
+@media (max-width: 750px){
+    .Solution{
+        height:1000px 
+    }
+    .Solution-statment{
+        width: 350px;
+        height: 330px;
+        
+    }
+    .Solution-animated{
+        margin-top: unset;
+        margin-top: 40px;
+        
+    }
+}

@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" type="text/css" href="design.css">
+    <link rel="stylesheet" type="text/css" href="design2.css">
     <script src="main.js">    </script>
     <title>Homepage</title>
 </head>
@@ -14,7 +15,7 @@
             <div class="header">
                 
                  <div class="logo">
-                    <img id="brand" src="img/ContactLogo.png">
+                    <img id="brand" src="img/Logo.png">
                 </div> 
 
                 <div class="Toggle-nav" onclick="toggleNav()">
@@ -23,9 +24,9 @@
                     
                <div class="navbar">
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Shop.html">Shop</a></li>
-                    <li><a href="Brand.html">Brands</a></li>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Shop</a></li>
+                    <li><a href="">Brands</a></li>
                 </ul>
                </div>
                 
@@ -44,43 +45,105 @@
             <div class="mainimg"> 
                 <h1 id="main-title">Help Society</h1>
                 <h2 id="main-subtitle">Start Using Reusable Water Bottle</h2>
-                   
             </div>
             
-            <div class="Mission">
                 
-                <div class="MissionStatment">
-                    <div class="StatmentPosition"> 
+            <div class="Problem-Statment">
+                
+                <div class="Title-Position">
+                    <h1 class="Problem-title"> Problems To Solve</h1>
+                </div>
 
-                        <div class="media-Statmentpic">
-                            <img id="media-statmentpic" src="img/statementpic.jpg" >
-                        </div>
-                        <h1 id="Statment-title"> Website Purpose</h1>
+                <div class="Problem-vid">
+                    <video id="Problem-vid"controls>
+                        <source src="video/Problem-video.mp4" >
+                    </video>
+                </div> 
 
-                        <div class="StatmentDetails">
-                            <p>Hello, my Name is Kang Lin I purse to become a web developer
-                                 or a front-end developer I created this website as a project 
-                                and learn more about webdevelopment by doing this project. 
-                                This website is my first 
-                                project and you guys can go ahead and check it out.I mainly 
-                                use this website for Html and CSS.
-                            </p>
-                            <br>
-                            <p>In the future I will update this website to add new designs
-                                that I have learned through out my web development journey.
-
+                <div class="Problem-pictures"> 
+                    <div class="Problem-position">
+                        <div class="Problem1-border">
+                            <div class="Problem1">
+                                <img id="Problem1" src="img/problempic1.png">
+                                <p>1) Plastic Water Bottle Pollution</p>
+                                <P id="sub-p1">Each day 60 million water bottles are thrown away and ends 
+                                    up in landfill or waterways.
+                                </P>
                                 
-                            </p>
+                            </div>
                         </div>
-                   
-                    </div>
+                        
+                        <div class="Problem1-border">
+                            <div class="Problem2">
+                                <img id="Problem2" src="img/problempic2.png">
+                                <p>2) Decline Population of Animals</p>
+                                <p id="sub-p2">Thousand of seabirds, turtles and other animals are killed from 
+                                    consumption of plastic
+                                </p>
+                            </div>
+                        </div>
 
-                    <div class="Statmentpic">
-                        <img id="statmentpic" src="img/statementpic.jpg" >
-                    </div>
-        
+                        <div class="Problem1-border">
+                            <div class="Problem3">
+                                <img id="Problem3" src="img/problempic3.png">
+                                <p>3) Factory Production Of Plastic  </p>
+                                <p id="sub-p3">Over 485 billion bottles gave been produced 
+                                    in 2021,which can cause more Pollution
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>  
                 </div>
             </div>
+
+            <div class= "Solution">
+
+                <div class="Solution-statment">
+                    <h1>Solutions</h1>
+                    <p >The solution is Reusable water bottles. 
+                        It can replace plastic water bottles to reduce the plastic
+                        burden on landfills and the oceans. In the UNtied States alone 
+                        it requires more than 15 milion bareels of oil to manfcature one
+                        year of water supply. Changing it to reusable water bottle require 
+                        less amount of oil for manufactor. 
+                    </p>
+                    <p>One misinformation is that majority of plastic bottle is recycled but 
+                        in the United States only one in six of plastic bottles are recyclable. 
+                        In knowing all this reusable bottles can benefit the environment and benefit 
+                        you financially since you dont have to constantly buy new water bottles after 
+                        finishing it.
+
+                    </p>
+                </div>
+
+                <div class="Solution-animated">
+                    <img id="animation" src="img/solution.gif"> 
+                </div>
+
+            </div>
+
+            <div class="Slider">
+                <div class="Slider-details">
+                    <h1>Reusable Water Bottles </h1>
+                    <p>These brands are Reusable Water Bottles Recommendation</p>
+
+                </div>
+                
+                <div class="Slider-position">
+                    <div class="Slider-container">
+                        <div class="logo"><img id="Swell" src="Brands/swell.png"></div>
+                        <div class="logo"><img id="Swell" src="Brands/hidratespark.png"></div>
+                        <div class="logo"><img id="Swell" src="Brands/Hyrdro-Flask.png"></div>
+                        <div class="logo"><img id="Swell" src="Brands/larq.png"></div>
+                        <div class="logo"><img id="Swell" src="Brands/bkr.png"></div>
+                        <div class="logo"><img id="Swell" src="Brands/nalgene.png"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"> </script>
 
             <div class="contact">
 
